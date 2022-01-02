@@ -1,0 +1,14 @@
+image: ghcr.io/cpp-review-dune/introductory-review/python-dune-fem-jupyter
+
+tasks:
+  - name: Starting server
+    command: |
+      jupyter notebook list
+
+ports:
+  - port: 8080
+    onOpen: open-preview
+  - port: 8888
+    onOpen: open-browser
+  # - port: 8080
+  #   onOpen: notify
