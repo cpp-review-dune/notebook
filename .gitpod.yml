@@ -1,9 +1,9 @@
 image: ghcr.io/cpp-review-dune/introductory-review/python-dune-fem-jupyter
 
-tasks:
-  - name: Starting server
-    command: |
-      jupyter notebook list
+# tasks:
+#   - name: Starting server
+#     command: |
+#       jupyter notebook list
 
 ports:
   - port: 8080
