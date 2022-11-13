@@ -3,7 +3,7 @@ image: ghcr.io/cpp-review-dune/introductory-review/python-dune-fem-jupyter
 tasks:
   - name: Starting server
     command: |
-      jt -t onedork
+      jt -t grade3
       startJupyter &
 
   - name: Docs server
