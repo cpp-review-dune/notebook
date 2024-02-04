@@ -1,4 +1,4 @@
-image: ghcr.io/cpp-review-dune/introductory-review/dune-fem-jupyter
+image: ghcr.io/cpp-review-dune/introductory-review/jupyter-dune-fem
 
 tasks:
   - name: Starting server
